@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 body {
+  background: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
   font-family: arial, sans-serif;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 h1 {
-  color: #878787;
+  color: #000;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -12,7 +18,7 @@ h1 {
 
 ul {
   margin: 0;
-  padding: 0;
+  padding: 5px 0 0;
 }
 
 li {
@@ -23,22 +29,33 @@ li {
   color: rgb(135, 135, 135);
   font-size: 16px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 25px;
 }
 
 li:first-letter {
   text-transform: capitalize;
 }
+.btn-primary{
+  background-color: #cb5c9f;
+  border: 1px solid #cb5c9f;
+}
+.btn-primary:hover{
+  color: #cb5c9f;
+  background: #fff0f3;
+  border: 1px solid #cb5c9f;
+}
 
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 80px auto;
+  
 }
 
 .weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  background-color: #fff;
 }
 
 .overview {
@@ -90,4 +107,11 @@ li:first-letter {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+}
+
+.footer{
+  text-align: center;
+    margin: auto;
+    display: block;
+    padding: 40px;
 }
