@@ -23,7 +23,7 @@ This is a simple weather web app that allows users to search for the current wea
 1. Clone the repository:
 
 ```bash
-git clone <https://github.com/hechadielhassania/vanilla-weather>
+git clone <[(https://github.com/hechadielhassania/weather-web-app)>
 ```
 
 2. Open index.html in your web browser.
